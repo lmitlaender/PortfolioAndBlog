@@ -1,0 +1,11 @@
+.main-menu {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;  /* like justify-between */
+  gap: 0.75rem;                     /* space between items */
+
+  /* Increase height via vertical padding */
+  padding: 1.5rem 0;             /* py-6 px-4, taller menu */
+  box-sizing: border-box;           /* include padding in height */
+}
