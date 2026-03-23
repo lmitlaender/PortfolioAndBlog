@@ -9,3 +9,8 @@
   padding: 1.5rem 0;             /* py-6 px-4, taller menu */
   box-sizing: border-box;           /* include padding in height */
 }
+
+#author-home {
+  padding-top: 8rem;
+  padding-bottom: 6rem;
+}
