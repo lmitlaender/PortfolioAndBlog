@@ -1,4 +1,5 @@
 ---
+title: "About me"
 showDate: false
 showPagination: false
 showDateUpdated : false
