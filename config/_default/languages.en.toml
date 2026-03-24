@@ -17,7 +17,8 @@ title = "Portfolio & Blog (by Lutz)"
 [params.author]
   name = "Lutz Mitländer"
   email = "lutz@mitlaender.dev"
-  image = "img/me_cropped.jpg"
+  image = "img/me_cropped.webp"
+  quality = 96
   headline = "Computer science student interested in AI, Hardware-Software-Interaction and more.."
   bio = ""
   links = [

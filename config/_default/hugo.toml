@@ -22,14 +22,14 @@ enableEmoji = true
   pagerSize = 100
 
 [imaging]
-  compression = "lossy"     # MUCH smaller files
-  quality = 75              # Best size/quality balance
+  compression = "lossy"
+  quality = 75
   resampleFilter = "lanczos"
-  anchor = "smart"
+  anchor = "center"
 
   [imaging.webp]
-    hint = "photo"          # Optimized for photos
-    method = 4              # Better compression
+    hint = "photo"
+    method = 4
 
 [taxonomies]
   tag = "tags"
