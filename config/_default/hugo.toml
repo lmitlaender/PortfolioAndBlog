@@ -22,7 +22,14 @@ enableEmoji = true
   pagerSize = 100
 
 [imaging]
-  anchor = 'Center'
+  compression = "lossy"
+  quality = 75
+  resampleFilter = "lanczos"
+  anchor = "center"
+
+  [imaging.webp]
+    hint = "photo"
+    method = 4
 
 [taxonomies]
   tag = "tags"
