@@ -7,3 +7,11 @@ command = 'chmod a+x build.sh && ./build.sh'
 [assets]
 directory = './public'
 not_found_handling = '404-page'
+
+[[routes]]
+pattern = "mitlaender.dev"
+custom_domain = true
+
+[[routes]]
+pattern = "www.mitlaender.dev"
+custom_domain = true
