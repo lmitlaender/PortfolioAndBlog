@@ -1,8 +1,7 @@
 name = "personalweb"
 compatibility_date = "2025-07-31"
-workers_dev = false
+workers_dev = true       # for preview/test deployment on workers.dev
 preview_urls = true
-main = "src/index.ts"
 
 [build]
 command = "chmod a+x build.sh && ./build.sh"
@@ -10,7 +9,6 @@ command = "chmod a+x build.sh && ./build.sh"
 [assets]
 directory = "./public"
 not_found_handling = "404-page"
-binding = "ASSETS"
 run_worker_first = true
 
 [[routes]]
